@@ -197,3 +197,165 @@ main {
 }
 
 /* A Summary of resume */
+
+.resume-title{
+    color: var(--Dark-01, #181818);
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        padding-top: 130px;
+        padding-bottom: 113px;
+}
+.edu-title{
+    color: var(--Dark-02, #474747);
+        font-size: 30px;
+        font-weight: 700;
+        
+}
+.dipartment{
+    color: var(--Dark-02, #474747);
+        font-size: 25px;
+        font-weight: 700;
+        padding-top: 30px;
+        padding-bottom: 10px;
+}
+.years{
+    color: var(--Dark-03, #757575);
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 20px;
+}
+.dipartment-des{
+    color: var(--Dark-03, #757575);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        padding-bottom: 30px;
+        /* 175% */
+}
+.resume-side{
+    display: flex;
+    gap: 71px;
+}
+.resume-d-btn{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 113px;
+}
+/* .hr1{
+    padding-bottom: 30px;
+    width: 558px;
+    height: 1px;
+    background: #D1D1D1;
+} */
+
+/* Footer section */
+footer{
+
+   
+    background: #FFF8F3;
+
+    
+    
+
+}
+.footer-container{
+    display: flex;
+    gap: 117px;
+   margin-left: 200px;
+}
+.contact-title{
+    color: var(--Dark-01, #181818);
+        
+        font-size: 35px;
+        font-weight: 700;
+        padding-top: 130px;
+        padding-bottom: 20px;
+        
+}
+
+.contact-des{
+    color: var(--Dark-02, #474747);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        padding-bottom: 30px;
+        /* 175% */
+}
+.facebook{
+    width: 24px;
+    height: 24px;
+}
+.twiter{
+    width: 24px;
+    height: 24px;
+}
+.instagram{
+    width: 24px;
+    height: 24px;
+}
+.icons{
+    display: flex;
+    gap: 24px;
+}
+.name{
+    color: var(--Dark-03, #757575);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+
+        width: 461px;
+        height: 64px;
+        flex-shrink: 0;
+        border: 0;
+        border-radius: 5px;
+        background: var(--White-Color, #FFF);
+        margin-bottom: 24px;
+}
+.email{
+        color: var(--Dark-03, #757575);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+
+        width: 461px;
+        height: 64px;
+        flex-shrink: 0;
+        border: 0;
+        border-radius: 5px;
+        background: var(--White-Color, #FFF);
+        margin-bottom: 24px;
+}
+.massage{
+        color: var(--Dark-03, #757575);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+
+            width: 461px;
+            height: 180px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            background: var(--White-Color, #FFF);
+            margin-bottom: 24px;
+}
+.btn-submit{
+        color: var(--White-Color, #FFF);
+       
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    padding-bottom: 130px;
+}
