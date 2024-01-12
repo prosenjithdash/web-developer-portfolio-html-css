@@ -25,7 +25,7 @@ body{
     display: flex;
     gap: 633px; 
     align-items: center;
-    padding-left: 180px;
+    padding-left: 150px;
 
 }
 .navbar > ul{
@@ -78,7 +78,7 @@ body{
 .banner{
     display: flex;
     align-items: center;
-    padding-left: 180px;
+    padding-left: 150px;
     padding-right: 38px;
     padding-top: 47px;
     padding-bottom: 0;
@@ -92,13 +92,14 @@ body{
     color: var(--Dark-02, #474747);
         font-size: 45px;
         font-weight: 600;
-        padding-bottom: 5px;
+        
 }
 .b-title{
         color: var(--Dark-01, #181818);
         font-size: 85px;
         font-weight: 700;
-        padding-bottom: 20px;
+        margin-top: -20px;
+        
 }
 .b-des{
         color: var(--Dark-03, #757575);
@@ -265,10 +266,16 @@ footer{
     
 
 }
-.footer-container{
+.footer-container {
+
     display: flex;
-    gap: 117px;
-   margin-left: 200px;
+    gap: 350px;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-left: 150px;
+    /* /* justify-content: center; */
+
 }
 .contact-title{
     color: var(--Dark-01, #181818);
@@ -279,6 +286,9 @@ footer{
         padding-bottom: 20px;
         
 }
+/* .lets2{
+    background-color: #FD6E0A;
+} */
 
 .contact-des{
     color: var(--Dark-02, #474747);
@@ -347,12 +357,12 @@ footer{
         line-height: 28px;
         /* 175% */
 
-            width: 461px;
-            height: 180px;
-            flex-shrink: 0;
-            border-radius: 5px;
-            background: var(--White-Color, #FFF);
-            margin-bottom: 24px;
+        width: 461px;
+        height: 180px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: var(--White-Color, #FFF);
+        margin-bottom: 24px;
 }
 .btn-submit{
         color: var(--White-Color, #FFF);
@@ -362,6 +372,5 @@ footer{
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-
-    padding-bottom: 130px;
+        padding-bottom: 130px;
 }
